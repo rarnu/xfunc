@@ -8,8 +8,8 @@
 
 ```
 compileOnly 'de.robv.android.xposed:api:82'
-implementation "com.github.rarnu:xfunc:0.1.5"
-implementation "com.github.rarnu:ktfunctional:0.7.3"
+implementation "com.github.rarnu:xfunc:0.2.0"
+implementation "com.github.rarnu:ktfunctional:0.8.0"
 ```
 
 - - -
