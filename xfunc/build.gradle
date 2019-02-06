@@ -5,7 +5,7 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
 
     lintOptions {
         abortOnError false
@@ -17,12 +17,12 @@ android {
 
 dependencies {
     compileOnly 'de.robv.android.xposed:api:82'
-    compileOnly "com.github.rarnu:ktfunctional:0.7.3"
+    compileOnly "com.github.rarnu:ktfunctional:0.8.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 
 group = 'com.github.rarnu'
-version = '0.1.5'
+version = '0.2.0'
 
 signing {
     sign configurations.archives

@@ -1,3 +1,5 @@
+@file:Suppress("Duplicates", "MemberVisibilityCanBePrivate", "HasPlatformType", "unused")
+
 package com.rarnu.xfunc
 
 import android.content.Intent

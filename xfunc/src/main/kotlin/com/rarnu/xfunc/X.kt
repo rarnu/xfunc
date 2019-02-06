@@ -1,3 +1,5 @@
+@file:Suppress("unused", "MemberVisibilityCanBePrivate")
+
 package com.rarnu.xfunc
 
 import android.os.Build
@@ -175,7 +177,7 @@ object X {
                 info.methodName = it.name
                 info.returnClass = it.returnType
                 val plist = it.parameterTypes
-                if (plist != null && plist.isNotEmpty()) {
+                if (plist.isNotEmpty()) {
                     info.paramClassList.addAll(plist)
                 }
                 retlist.add(info)
